@@ -1,0 +1,58 @@
+# Dependencies (if you add any package manager later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.suo
+*.ntuser*
+*.user
+*.sln
+*.csproj
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.bak
+
+# Backup files
+*.backup
+*.old
+
+# Performance monitoring
+*.prof
+
+# Optional: Keep your localStorage data separate (if you export it)
+data-backup/
+*.json.backup
