@@ -36,3 +36,11 @@ A beautiful, interactive web application for managing call cards with local stor
 ```bash
 git clone https://github.com/yourusername/card-stack-manager.git
 cd card-stack-manager
+
+card-stack-manager/
+│
+├── index.html          # Main HTML structure
+├── style.css           # Styling and animations
+├── script.js           # Core JavaScript functionality
+├── README.md           # Project documentation
+└── .gitignore          # Git ignore file
