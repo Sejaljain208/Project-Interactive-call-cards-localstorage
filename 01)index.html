@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="02)style.css">
+
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>New Call</h2>
+
+        <form>
+            <label>Image URL</label>
+            <input required type="text" placeholder="https://example.com/photo.jpg">
+
+            <label>Full Name</label>
+            <input  required type="text" placeholder="Enter full name">
+
+            <label>Home Town</label>
+            <input required type="text" placeholder="Enter home town">
+
+            <label>Purpose</label>            
+            <input required type="text" placeholder="e.g. Quick appointment note">
+
+            <label>Category</label>           
+            <div class="tag-group">
+                <label class="tag emergency">
+                    <input type="radio" name="category">
+                    <span>Emergency</span>
+                </label>
+                <label class="tag important">
+                    <input required type="radio" name="category">
+                    <span>Important</span>
+                </label>
+                <label class="tag urgent">
+                    <input required type="radio" name="category">
+                    <span>Urgent</span>
+                </label>
+                <label class="tag norush">
+                    <input required type="radio" name="category">
+                    <span>No Rush</span>
+                </label>
+            </div>
+
+            <button class="submit-btn">Create Note</button>
+            <button type="button" class="closeForm">Close</button>
+        </form>
+    </div>
+
+    <div class="note-container">
+        <!-- Left Buttons -->
+        <div class="left-icons">
+            <button id="add-note"><i class="ri-add-line"></i></button>
+            <button id="move-up"><i class="ri-arrow-up-line"></i></button>
+            <button id="move-down"><i class="ri-arrow-down-line"></i></button>
+        </div>
+
+        <!-- Cards Stack -->
+        <div class="stack">
+            <div class="call-card">
+                <img src="https://i.pinimg.com/736x/e2/da/7d/e2da7db46e7f39b7d08e1e348e598c4e.jpg" alt="profile">
+
+                <div class="card-content">
+                    <h3>Rose</h3>
+
+                    <div class="info-row">
+                        <span>Home town</span>
+                        <span>Singapore</span>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Bookings</span>
+                        <span>3 times</span>
+                    </div>
+
+                    <div class="card-actions">
+                        <button class="call-btn"><i class="ri-phone-fill"></i> Call</button>
+                        <button class="msg-btn">Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Color Picker -->
+        <div class="right-colors">
+            <span class="dot black" data-color="#1f1f1f"></span>
+            <span class="dot purple" data-color="#7c3aed"></span>
+            <span class="dot orange" data-color="#f97316"></span>
+            <span class="dot teal" data-color="#14b8a6"></span>
+        </div>
+
+    </div>
+
+    <script src="03)script.js"></script>
+</body>
+
+</html>
