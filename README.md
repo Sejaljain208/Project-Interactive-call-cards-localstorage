@@ -5,7 +5,7 @@
 
 A beautiful, interactive web application for managing call cards with local storage persistence. Create, organize, filter, and manage contact cards with a smooth 3D stacking effect.
 
-![Card Stack Manager Demo](https://call-card-localstorage.netlify.app//)
+[Card Stack Manager Demo](https://call-card-localstorage.netlify.app//)
 
 ## ✨ Features
 
