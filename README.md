@@ -20,7 +20,7 @@ A beautiful, interactive web application for managing call cards with local stor
 
 ## 🚀 Live Demo
 
-[View Live Demo](#) (https://call-card-localstorage.netlify.app/)*
+click here ---> [View Live Demo](https://call-card-localstorage.netlify.app/)
 
 ## 🛠️ Technologies Used
 
